@@ -21,6 +21,8 @@
     --green:#D5001F;
     --grey:#F5F5F5;
     --yellow:#FFD830;
+    --white:#Fff;
+    --black:#000;
 
 
 }
@@ -29,10 +31,31 @@
 
 button{
     background-color: var(--blue);
-    color: #fff;
+    color:var(--white);
     padding:5px 10px;
     border-style: none;
 }
+
+.border{
+    border: 1px dashed var(--black);
+}
+
+main{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+  margin-bottom: 50px;
+  height: 500px;
+}
+
+footer{
+    color:var(--white);
+    background-color:var(var(--black));
+    height: 150px;
+    margin-top: 50px;
+}
+
 
 
 
