@@ -23,6 +23,7 @@
     --yellow:#FFD830;
     --white:#Fff;
     --black:#000;
+    --darkgrey:#D0D0D3;
 
 
 }
@@ -51,13 +52,6 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-main{
-    min-height: 1200px;
-    background-color: #FFD830;
-}
-
-
-
 footer{
     color:var(--white);
     background-color: var(--black);
@@ -76,15 +70,38 @@ h1{
     font-weight: 800 ;
 }
 
+h2{
+    font-size:40px;
+    margin-bottom: 55px;
+}
+
+h3{
+    font-size: 23px;
+    margin-bottom: 18px;
+}
+
+h4{
+    margin-bottom: 15px;
+}
+
+i{
+    padding: 0 5px;
+}
+
+.fa-solid.fa-check{
+    color: #0061FF;
+    font-size: 15px;
+}
+
 /* UTILITY */
 
 .header-footer-container{
-    max-width: 1150px;
+    max-width: 1265px;
     margin:0 auto;
 }
 
 .main-container{
-    max-width: 1200px;
+    max-width: 1075px;
     margin:0 auto;
 }
 
@@ -93,6 +110,30 @@ h1{
 }
 
 
+.circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin:0 3px;
+ }
+
+ .border-blu{
+    border:5px solid var(--blue);
+    cursor: pointer;
+ }
+
+ .border-grey{
+    border:2px solid #d5d1d1;
+    margin-left: 50px;
+    cursor: pointer;
+ }
+
+main{
+    padding: 60px 0;
+    min-height: 1000px ;
+}
 /* HEADER */
 
 header{
@@ -143,7 +184,7 @@ header{
              transform: translateY(80px);
              background-color:var(--lightblue);
              height: 740px;
-             padding-top:80px;
+             padding-top:40px;
         }
         
         .jumbotron-content{
@@ -166,4 +207,61 @@ header{
             color: var(--black);
         }
 
+ /* MAIN */
+
+     /* SECTION PLANS */
+
+     .plans-row{
+        display:flex;
+        gap: 40px;
+        /* height: 90vh; */
+        margin: 50px 0;
+     }
+
+     .plans-column{
+        flex-basis: calc(100%/3);
+        min-height: 300px;
+        font-size: 14px;
+        border:1px solid grey;
+        min-height: 950px;
+    }
+    
+    .plans-column-flex{
+        
+        display: flex;
+        flex-direction: column;
+     }
+
+     .plans-column-title{
+          flex-basis: 35px;
+          text-align: center;
+          line-height: 35px;
+          vertical-align: middle;
+          border-bottom:1px solid var(--darkgrey);
+     }
+
+     .plans-column-description{
+        padding: 35px;
+        flex-basis: 510px;
+        border-bottom: 1px solid var(--darkgrey);
+    }
+
+    .plans-column-highlights{
+        padding: 35px;
+        flex-basis: 405px;
+    }
+    
+    #plans ul{
+        list-style-type: none;
+        padding:40px 0;
+    }
+   
+    #plans li{
+        padding: 10px 0;
+    }
+
+    #plans button{
+        width: 100%;
+        font-size: 15px;
+    }
 
