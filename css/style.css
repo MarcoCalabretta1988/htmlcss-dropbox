@@ -8,6 +8,7 @@
 /* ROOT */
 
 :root{
+
      /* COLOR PALETTE */
     --blue:#0061FF;
     --lightblue: #B4D0E7;
@@ -23,13 +24,15 @@
 
 
 }
+
 /* GENERAL */
 
 button{
-    background-color: ;
+    background-color: var(--blue);
+    color: #fff;
+    padding:5px 10px;
+    border-style: none;
 }
-
-
 
 
 
