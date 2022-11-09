@@ -4,3 +4,43 @@
     padding:0;
     box-sizing: border-box;
 }
+
+/* ROOT */
+
+:root{
+     /* COLOR PALETTE */
+    --blue:#0061FF;
+    --lightblue: #B4D0E7;
+    --darkblue:#0D2481;
+    --doggerblue:#0093CE;
+    --granada:#61082B;
+    --red:#FF1C1C;
+    --darkred:#A2D39B;
+    --lightgreen:#D1E9CD;
+    --green:#D5001F;
+    --grey:#F5F5F5;
+    --yellow:#FFD830;
+
+
+}
+/* GENERAL */
+
+button{
+    background-color: ;
+}
+
+
+
+
+
+/* UTILITY */
+
+.header-footer-container{
+    max-width: 1400px;
+    margin:0 auto;
+}
+
+.main-container{
+    max-width: 1200px;
+    margin:0 auto;
+}
