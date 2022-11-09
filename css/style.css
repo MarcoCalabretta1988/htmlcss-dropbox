@@ -71,15 +71,15 @@ img{
 }
 
 h1{
-    font-size:80px;
-    padding: 35px 0;
+    font-size:79px;
+    margin-bottom: 55px;
     font-weight: 800 ;
 }
 
 /* UTILITY */
 
 .header-footer-container{
-    max-width: 1130px;
+    max-width: 1150px;
     margin:0 auto;
 }
 
@@ -133,7 +133,7 @@ header{
              transform: translateY(80px);
              background-color:var(--lightblue);
              height: 740px;
-             padding:60px;
+             padding-top:80px;
         }
         
         .jumbotron-content{
@@ -150,6 +150,10 @@ header{
             bottom:80px;
             left:0;
             transform: translate(50%,-50%) scale(3);
+        }
+
+        .arrow a{
+            color: var(--black);
         }
 
 
