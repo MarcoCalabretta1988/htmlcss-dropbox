@@ -243,9 +243,9 @@ header{
      .plans-column-description{
         padding: 35px;
         flex-basis: 510px;
-        border-bottom: 1px solid var(--darkgrey);
     }
 
+     
     .plans-column-highlights{
         padding: 35px;
         flex-basis: 405px;
