@@ -267,7 +267,10 @@ header{
         .jumbotron-content button{
             font-size: 17px;
         }
-
+        
+        .arrow{
+            animation: bouncing 0.5s linear infinite alternate-reverse;
+        }
  /* MAIN */
 
      /* SECTION PLANS */
@@ -494,4 +497,30 @@ footer li{
 .language{
     padding:40px 0;
     color: var(--darkgrey);
+}
+
+/* HOVER */
+
+button:hover{
+   opacity: 0.8 ;
+}
+
+.collaboration-square:hover{
+    box-shadow: inset 15px 15px 5px rgba(255,255, 255, 0.4) ,
+                inset -15px -15px 5px rgba(255,255, 255, 0.4),
+                inset 15px -15px 5px rgba(255,255, 255, 0.4),
+                inset -15px  15px 5px rgba(255,255, 255, 0.4);
+}
+
+/* ANIMATION */
+
+@keyframes bouncing{
+    from{
+        bottom:80px;
+        left:0;
+    }
+    to{
+        bottom:90px;
+        left:0;
+    }
 }
