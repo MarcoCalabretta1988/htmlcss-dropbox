@@ -56,7 +56,6 @@ footer{
     color:var(--white);
     background-color: var(--black);
     height: 570px;
-    margin-top: 50px;
 }
 
 img{
@@ -193,7 +192,7 @@ address{
 }
 
 main{
-    padding: 60px 0;
+    padding-top: 60px;
 }
 /* HEADER */
 
@@ -453,4 +452,22 @@ header{
         color: var(--black);
         font-size: 17px;
         transform: translateY(-20px);
+     }
+
+     /* SECTION FAQ */
+     
+     #faq{
+         padding: 150px 0;
+     }
+
+     .faq-row{
+        border-top: 1px solid var(--black);
+        min-height: 100px;
+        line-height: 100px;
+        vertical-align: middle;
+     }
+
+     .faq-column {
+        justify-content: space-between;
+        border-bottom: 1px solid var(--black);
      }
