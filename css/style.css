@@ -247,9 +247,6 @@ header{
      }
     
      .plans-column-flex{
-        
-        display: flex;
-        flex-direction: column;
         min-height: 950px;
      }
 
@@ -306,3 +303,30 @@ header{
         padding:10px 40px;
     }
 
+    /* SECTION DROPBOX PARTNER */
+
+    #partner{
+        padding: 150px 0;
+    }
+    
+    .partner-row{
+ 
+    }
+    .partner-img{
+         flex-basis: 60%;
+    }
+
+    .partner-text{
+        flex-basis: 40%;
+       padding:50px;
+
+    }
+
+    #partner button{
+        background-color: var(--white);
+        border: 1px solid var(--black);
+        color: var(--black);
+        font-size: 17px;
+    }
+
+    /* SECTION BUSINESS TOOLS */
