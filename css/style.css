@@ -52,11 +52,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-footer{
-    color:var(--white);
-    background-color: var(--black);
-    height: 570px;
-}
+
 
 img{
     max-width: 100%;
@@ -194,6 +190,7 @@ address{
 main{
     padding-top: 60px;
 }
+
 /* HEADER */
 
 header{
@@ -471,3 +468,30 @@ header{
         justify-content: space-between;
         border-bottom: 1px solid var(--black);
      }
+
+/* FOOTER */
+
+footer{
+    color:var(--white);
+    background-color: var(--black);
+    height: 570px;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer li{
+    padding: 10px 0;
+}
+
+.useful-link-row{
+    min-height: 450px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.language{
+    padding:40px 0;
+    color: var(--darkgrey);
+}
