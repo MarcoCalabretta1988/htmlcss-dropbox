@@ -491,7 +491,7 @@ header{
 footer{
     color:var(--white);
     background-color: var(--black);
-    height: 570px;
+    height: 600px;
 }
 
 footer ul{
