@@ -309,9 +309,6 @@ header{
         padding: 150px 0;
     }
     
-    .partner-row{
- 
-    }
     .partner-img{
          flex-basis: 60%;
     }
@@ -330,3 +327,16 @@ header{
     }
 
     /* SECTION BUSINESS TOOLS */
+    
+    .tools-row{
+        flex-wrap: wrap;
+    }
+
+
+    .tools-card{
+        flex-basis: calc(100%/3);
+        min-height: 200px;
+        padding: 35px;
+    }
+
+    /* SECTION CLIENT */
