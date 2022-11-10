@@ -434,3 +434,23 @@ header{
     }
    
     /* SECTION JOIN DROPBOX */
+
+    .join-business-wrap{
+        height: 365px;
+        justify-content: space-between;
+        align-items: center;
+        color: var(--granada);
+     }
+
+     .join-business-wrap h2{
+        margin: 0;
+     }
+
+     .join-business-wrap button{
+        margin: 0;
+        background-color: var(--white);
+        padding: 12px 50px;
+        color: var(--black);
+        font-size: 17px;
+        transform: translateY(-20px);
+     }
