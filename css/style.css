@@ -229,10 +229,12 @@ header{
             text-decoration: none;
             color: var(--black);
             margin:0 15px;
+            line-height: 78px;
         }
 
         #navbar li{
             display: inline-block;
+            
         }
 
      /* JUMBOTRON */
@@ -463,14 +465,26 @@ header{
      .faq-row{
         border-top: 1px solid var(--black);
         min-height: 100px;
-        line-height: 100px;
-        vertical-align: middle;
+        /* line-height: 100px;
+        vertical-align: middle; */
      }
 
      .faq-column {
+        min-height: 80px;
+        padding: 40px 0;
         justify-content: space-between;
         border-bottom: 1px solid var(--black);
+        flex-wrap: wrap;
      }
+
+     .faq-column p{
+        display: none;
+     }
+
+     .faq-column .fa-angle-up{
+        display: none;
+     }
+
 
 /* FOOTER */
 
@@ -512,6 +526,22 @@ button:hover{
                 inset -15px  15px 5px rgba(255,255, 255, 0.4);
 }
 
+.faq-column:hover p{
+     display: block;
+     padding-top: 40px;
+}
+
+.faq-column:hover .fa-angle-up{
+    display: inline-block;
+}
+
+.faq-column:hover .fa-angle-down{
+    display: none;
+}
+
+#navbar li:hover{
+   border-bottom: 2px solid var(--black);
+}
 /* ANIMATION */
 
 @keyframes bouncing{
