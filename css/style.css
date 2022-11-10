@@ -330,6 +330,7 @@ header{
     
     .tools-row{
         flex-wrap: wrap;
+        margin: 0 -35px;
     }
 
 
@@ -340,3 +341,7 @@ header{
     }
 
     /* SECTION CLIENT */
+
+    #client{
+        padding: 150px 0;
+    }
