@@ -16,9 +16,9 @@
     --doggerblue:#0093CE;
     --granada:#61082B;
     --red:#FF1C1C;
-    --darkred:#A2D39B;
+    --darkgreen:#A2D39B;
     --lightgreen:#D1E9CD;
-    --green:#D5001F;
+    --darkred:#D5001F;
     --grey:#F5F5F5;
     --yellow:#FFD830;
     --white:#Fff;
@@ -98,6 +98,10 @@ i{
     font-size: 15px;
 }
 
+address{
+    padding: 30px 0;
+}
+
 /* UTILITY */
 
 .header-footer-container{
@@ -119,6 +123,9 @@ i{
     flex-direction: column;
 }
 
+.scale-05{
+  transform: scale(0.5);
+}
 
 .circle{
     height: 20px;
@@ -146,6 +153,43 @@ i{
     line-height: 35px;
     vertical-align: middle;
     border-bottom:1px solid var(--darkgrey);
+}
+
+/* BACKGROUND COLOR PALETTE */
+.bg-green{
+    background-color: var(--darkgreen);
+}
+
+.bg-granada{
+    background-color: var(--granada);
+}
+
+.bg-darkgreen{
+    background-color: var(--darkgreen);
+}
+
+.bg-red{
+    background-color: var(--red);
+}
+
+.bg-doggerblue{
+    background-color: var(--doggerblue);
+}
+
+.bg-blue{
+    background-color: var(--darkblue);
+}
+
+.bg-yellow{
+    background-color: var(--yellow);
+}
+
+.bg-darkred{
+    background-color: var(--darkred);
+}
+
+.bg-lightblue{
+    background-color: var(--lightblue);
 }
 
 main{
@@ -345,3 +389,48 @@ header{
     #client{
         padding: 150px 0;
     }
+
+    /* SECTION COLLABORATION */
+    
+
+    .collaboration-column-left{
+         flex-basis: calc(100%/3);
+         min-height: 100px;
+         flex-wrap: wrap;
+         height: 700px;
+    }
+
+    .collaboration-column-center{
+        flex-basis: calc(100%/3);
+        background-color: var(--grey);
+        padding: 50px;
+    }
+
+    .collaboration-column-right{
+        flex-basis: calc(100%/3);
+        flex-wrap: wrap;
+        
+    }
+
+    .collaboration-square{
+        flex-basis: calc(100%/2);
+        height: calc(100%/2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .collaboration-square img{
+          filter: invert(100%);
+    }
+
+    .collaboration-column-center p{
+        padding: 30px 0;
+    }
+
+    .collaboration-column-center img{
+       width: 280px;
+       padding-bottom: 30px;
+    }
+   
+    /* SECTION JOIN DROPBOX */
