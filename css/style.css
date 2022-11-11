@@ -391,29 +391,35 @@ header{
 
     /* SECTION COLLABORATION */
     
+    .collaboration-row{
+        width: 100vw;
+        height: 100vh;
+    }
 
     .collaboration-column-left{
-         flex-basis: calc(100%/3);
-         min-height: 100px;
+         flex-basis: calc(100vw/3);
+         height: calc(100vw/3);
          flex-wrap: wrap;
-         height: 700px;
+    
     }
 
     .collaboration-column-center{
-        flex-basis: calc(100%/3);
+        flex-basis: calc(100vw/3);
+        height: calc(100vw/3);
         background-color: var(--grey);
         padding: 50px;
     }
 
     .collaboration-column-right{
-        flex-basis: calc(100%/3);
+        flex-basis: calc(100vw/3);
+         height: calc(100vw/3);
         flex-wrap: wrap;
         
     }
 
     .collaboration-square{
-        flex-basis: calc(100%/2);
-        height: calc(100%/2);
+        flex-basis: 50%;
+        height: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
